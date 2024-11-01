@@ -86,10 +86,10 @@ import {
 import { FaPhp } from "react-icons/fa";
 import { DiCss3, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1wkPu9i_e2uAdHmbqe0hEM9BfBheJfxkT/view?usp=sharing";
-export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
+export const resumeLink = "";
+export const repoLink = "https://github.com/zcrew0x";
 
-export const callToAction = "https://github.com/kyletran191";
+export const callToAction = "https://github.com/zcrew0x";
 
 export const navLinks = [
   {
@@ -114,9 +114,16 @@ export const educationList = [
   {
     id: "education-1",
     icon: nitk,
-    title: "UCLA",
-    degree: "Information Technology",
-    duration: "October 2020",
+    title: "NCD",
+    degree: "THCS Nguyen Chi Dieu",
+    duration: "August 2020",
+  },
+  {
+    id: "education-2",
+    icon: nitk,
+    title: "HUSC",
+    degree: "THPT Chuyen Khoa Hoc Hue",
+    duration: "September 2024",
   },
 ];
 
@@ -246,7 +253,7 @@ export const experiences = [
     positions: [
       {
         title: "Admin",
-        duration: "Jan 2023 - Present",
+        duration: "Jan 2023 - Closed",
         content: [
           {
             text: "Managing a forum.",
@@ -281,8 +288,8 @@ export const projects = [
   {
     id: "project-1",
     title: "KyleBot",
-    github: "https://github.com/kyletran191/kylebot",
-    link: "https://github.com/kyletran191/kylebot",
+    github: "https://github.com/zcrew0x/kylebot",
+    link: "https://github.com/zcrew0x/kylebot",
     image: chargeswap,
     content:
       "A discord bot for ddos and attack. This Tool is made for educational purpose only, Author will not be responsible for any misuse of this toolkit!",
@@ -367,22 +374,22 @@ export const socialMedia = [
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://www.github.com/kyletran191",
+    link: "https://www.github.com/zcrew0x",
   },
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:info@tranbaokha.com",
+    link: "mailto:info@khatranfx.net",
   },
   {
     id: "social-media-4",
     icon: AiFillFacebook,
-    link: "https://www.facebook.com/kyletran.1901",
+    link: "https://www.facebook.com/zcrew0x",
   },
   {
     id: "social-media-5",
     icon: AiFillInstagram,
-    link: "https://www.instagram.com/kyletran.1901",
+    link: "https://www.instagram.com/zurixw._",
   },
 ];
 
@@ -408,5 +415,5 @@ export const clients = [
 export const aboutMe = {
     name: "Tran Bao Kha",
     tagLine: "Developer",
-    intro: "A normal developer from Los Angeles, California, USA"
+    intro: "A normal developer from Hue, Viet Nam"
 }
